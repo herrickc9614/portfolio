@@ -15,7 +15,6 @@ class Header extends Component {
     return(  
   <div className="App">
 
-  {/*<button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> */}
   <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
   <header id="header" className="d-flex flex-column justify-content-center">
