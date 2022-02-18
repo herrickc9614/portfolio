@@ -16,7 +16,7 @@ function About(){
               <img src="assets/img/profile-img.jpg" className="img-fluid" alt=""/>
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content">
-              <h3>UI/UX Designer &amp; Web Developer.</h3>
+              <h3>Full Stack Java Developer.</h3>
               <p className="fst-italic">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua.
@@ -24,16 +24,16 @@ function About(){
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>12 Sept 1997</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>712-</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Wallingford, USA</span></li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachellors</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>herrickcalvin@gmail.com</span></li>
                   </ul>
                 </div>
               </div>
@@ -60,23 +60,23 @@ function About(){
             <div className="col-lg-6">
   
               <div className="progress">
-                <span className="skill">HTML <i className="val">100%</i></span>
+                <span className="skill">CPP <i className="val">60%</i></span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
   
               <div className="progress">
-                <span className="skill">CSS <i className="val">90%</i></span>
+                <span className="skill">C# <i className="val">60%</i></span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
   
               <div className="progress">
-                <span className="skill">JavaScript <i className="val">75%</i></span>
+                <span className="skill">JavaScript <i className="val">60%</i></span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
   
@@ -85,23 +85,23 @@ function About(){
             <div className="col-lg-6">
   
               <div className="progress">
-                <span className="skill">PHP <i className="val">80%</i></span>
+                <span className="skill">Java <i className="val">60%</i></span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
   
               <div className="progress">
-                <span className="skill">WordPress/CMS <i className="val">90%</i></span>
+                <span className="skill">HTML <i className="val">60%</i></span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
   
               <div className="progress">
-                <span className="skill">Photoshop <i className="val">55%</i></span>
+                <span className="skill">CSS <i className="val">60%</i></span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
   
