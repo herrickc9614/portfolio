@@ -15,8 +15,10 @@ import {
     Routes
   } from "react-router-dom";
 
-function Layout(){   
-        return ( 
+class Layout extends Component {   
+   render()
+   {    
+  return ( 
     
 
         <div>
@@ -25,10 +27,11 @@ function Layout(){
         <About />
         <Resume />
         <Portfolio />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
         </div>
-        )  
+        ) 
+  }; 
     }   
   
 export default Layout  

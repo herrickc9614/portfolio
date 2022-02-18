@@ -1,26 +1,28 @@
-import React, { useState, useEffect, Component } from 'react'
-import { propTypes } from 'react-bootstrap/esm/Image';
+import React, { useState} from 'react'
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 
-const numbers = 
+import Project1 from './Routers/Project1';
+import Project2 from './Routers/Project2';
+import Project3 from './Routers/Project3';
+
+
+const items = 
 [
-<img src = "logo192.png"/>, 
-2, 
-3, 
-4, 
-7
-
-
+'/', 
+'/project2',
+'/project3'
 ]
-
 
 function handleList(num)
 {
+  const itemsUsed = items.map((n) => n)
+  
   if(num < 0)
   {
-    num = 4
+    num = itemsUsed.length - 1
   }
 
-  if(num > 4)
+  if(num > itemsUsed.length - 1)
   {
     num = 0
   }
@@ -44,13 +46,25 @@ function Portfolio() {
         <div className="row">
 
           <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <p>{numbers[count]}</p>
-          </div>
-
-          <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <div className="wrapper">
+      <BrowserRouter>
+        <div className="Help">
+        <Link to={items[count]}>
+        <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
           <button className ="" onClick={() => setCount(handleList(count - 1))} type = 'submit'>&#x2190;</button>
           <button className ="" onClick={() => setCount(handleList(count + 1))} type = 'submit'>&#x2192;</button>
           </div>
+          </Link>
+        <Routes>
+          <Route path="/" element={<Project1 />}></Route>
+          <Route path="/project2" element={<Project2 />}></Route>
+          <Route path="/project3" element={<Project3 />}></Route>
+        </Routes>
+        </div>
+      </BrowserRouter>
+    </div>
+          </div>
+
         </div>
       </div>
     </section>
