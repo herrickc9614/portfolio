@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
   
-class Resume extends Component { 
-  render(){ 
+function Resume(){ 
     return(  
   <div className="Resume">  
     <section id="resume" className="resume">
@@ -72,8 +71,5 @@ class Resume extends Component {
   </div>  
   ); 
   }  
-}
 
-
-  
 export default Resume

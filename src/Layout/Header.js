@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
   
-class Header extends Component { 
-  render(){ 
+function Header(){ 
     return(  
   <div className="App">
 
@@ -22,8 +21,8 @@ class Header extends Component {
   </header>
   </div>
   ); 
-  }  
-}
+}  
+
 
 
   

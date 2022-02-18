@@ -15,8 +15,7 @@ import {
     Routes
   } from "react-router-dom";
 
-export class Layout extends Component {  
-    render() {  
+function Layout(){   
         return ( 
     
 
@@ -30,7 +29,6 @@ export class Layout extends Component {
         <Footer />
         </div>
         )  
-    }  
-}  
+    }   
   
 export default Layout  

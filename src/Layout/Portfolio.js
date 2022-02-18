@@ -1,14 +1,36 @@
 import React, { useState, useEffect, Component } from 'react'
+import { propTypes } from 'react-bootstrap/esm/Image';
 
-function sayHello() {
-  alert('You clicked me!');
+const numbers = 
+[
+<img src = "logo192.png"/>, 
+2, 
+3, 
+4, 
+7
+
+
+]
+
+
+function handleList(num)
+{
+  if(num < 0)
+  {
+    num = 4
+  }
+
+  if(num > 4)
+  {
+    num = 0
+  }
+
+  return num
 }
 
-
-
-class Portfolio extends Component { 
-  render(){ 
-    return(  
+function Portfolio() { 
+  const [count, setCount] = useState(0);
+  return(  
   <div className="Portfolio">
 
     <section id="portfolio" className="portfolio section-bg">
@@ -22,12 +44,12 @@ class Portfolio extends Component {
         <div className="row">
 
           <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-
+          <p>{numbers[count]}</p>
           </div>
 
           <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <button className ="" onClick={sayHello} type = 'submit'>&#x2190;</button>
-          <button className ="" onClick={sayHello} type = 'submit'>&#x2192;</button>
+          <button className ="" onClick={() => setCount(handleList(count - 1))} type = 'submit'>&#x2190;</button>
+          <button className ="" onClick={() => setCount(handleList(count + 1))} type = 'submit'>&#x2192;</button>
           </div>
         </div>
       </div>
@@ -36,8 +58,6 @@ class Portfolio extends Component {
   </div>  
   ); 
   }  
-}
 
 
-  
 export default Portfolio

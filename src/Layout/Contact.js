@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
   
-class Header extends Component { 
-  render(){ 
+function Contact(){ 
     return(  
   <div className="Contact">
     <section id="contact" className="contact">
@@ -72,8 +71,7 @@ class Header extends Component {
   </div>  
   ); 
   }  
-}
 
 
   
-export default Header
+export default Contact

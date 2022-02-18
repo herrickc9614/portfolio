@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-class Title extends Component { 
-    render(){ 
+function Title(){ 
+
       return(  
     <div className="Title">
     <section id="hero" className="d-flex flex-column justify-content-center">
@@ -12,8 +12,7 @@ class Title extends Component {
     </section>
     </div>  
     ); 
-    }  
-  }
+  }  
   
   
     

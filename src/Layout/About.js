@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-class About extends Component { 
-    render(){ 
+function About(){ 
       return(  
     <div className="About"> 
       <section id="about" className="about">
@@ -115,7 +114,6 @@ class About extends Component {
     </div>  
     ); 
     }  
-  }
   
   
     

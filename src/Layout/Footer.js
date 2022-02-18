@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
   
-class Footer extends Component { 
-  render(){ 
+function Footer(){ 
     return(  
   <div className="Footer">
   <footer id="footer">
@@ -25,7 +24,6 @@ class Footer extends Component {
   </div>  
   ); 
   }  
-}
 
 
   
