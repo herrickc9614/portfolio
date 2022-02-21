@@ -10,7 +10,7 @@ export default function Project2() {
           <div className="section-title">
             <h2>Critical Impact</h2>
             <div className="social-links">
-            <p>Description</p><br></br>
+            <p>Defend the city from meteor shows and extraterrestrials either by your self or against a friend</p><br></br>
             <a href = "https://github.com/OfficialJazzercise/MeteorGame"><i class="bi bi-github"></i></a>
             </div>
           </div>

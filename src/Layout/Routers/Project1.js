@@ -9,7 +9,7 @@ export default function Project1() {
   
           <div className="section-title">
             <h2>Please Follow the Instructions</h2>
-            <p>Description</p><br></br>
+            <p>After the child you are babysitting goes to bed, the house starts to come alive, tormenting you and trying to get you to succumb to the dark forces. Yet the only thing you can do, is follow the instructions given to you</p><br></br>
             <div className="social-links">
             <a href = "https://github.com/blue1442/FollowInstructions"><i class="bi bi-github"></i></a>
             </div>

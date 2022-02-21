@@ -10,7 +10,7 @@ export default function Project3() {
           <div className="section-title">
             <h2>Book Tracker</h2>
             <div className="social-links">
-            <p>Description</p><br></br>
+            <p>Add, remove, or keep track of what books you are reading</p><br></br>
             <a href = "https://github.com/EricSei/book-tracker"><i class="bi bi-github"></i></a>
             </div>
           </div>
