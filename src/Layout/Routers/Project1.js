@@ -9,6 +9,7 @@ export default function Project1() {
   
           <div className="section-title">
             <h2>Please Follow the Instructions</h2>
+            <p>Description</p><br></br>
             <div className="social-links">
             <a href = "https://github.com/blue1442/FollowInstructions"><i class="bi bi-github"></i></a>
             </div>
