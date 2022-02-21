@@ -7,14 +7,6 @@ import Resume from './Resume';
 import Portfolio from './Portfolio' ;
 import Contact from './Contact';
 
-import {
-    Route,
-    BrowserRouter as Router,
-    NavLink,
-    HashRouter,
-    Routes
-  } from "react-router-dom";
-
 class Layout extends Component {   
    render()
    {    
