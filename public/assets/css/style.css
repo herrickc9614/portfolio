@@ -1035,10 +1035,10 @@ section {
   padding: 0;
   margin: 0 0 40px 0;
 }
-#footer .social-links {
+.social-links {
   margin: 0 0 40px 0;
 }
-#footer .social-links a {
+.social-links a {
   font-size: 18px;
   display: inline-block;
   background: #bb0505;
@@ -1052,7 +1052,7 @@ section {
   height: 36px;
   transition: 0.3s;
 }
-#footer .social-links a:hover {
+.social-links a:hover {
   background: #e30606;
   color: #fff;
   text-decoration: none;

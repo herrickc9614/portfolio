@@ -8,8 +8,10 @@ export default function Project1() {
         <div className="container" data-aos="fade-up">
   
           <div className="section-title">
-            <h2>Project 1</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <h2>Please Follow the Instructions</h2>
+            <div className="social-links">
+            <a href = "https://github.com/blue1442/FollowInstructions"><i class="bi bi-github"></i></a>
+            </div>
           </div>
           
           <div className="row">

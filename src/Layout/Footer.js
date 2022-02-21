@@ -8,7 +8,7 @@ function Footer(){
       <h3>Calvin Herrick</h3>
       <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
       <div className="social-links">
-        <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/calvin-herrick-52b904206/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
       </div>
       <div className="copyright">
         &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
